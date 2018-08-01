@@ -1,0 +1,25 @@
+.grid-features .grid-item {
+	width: calc(100% / 2);
+	text-align: left;
+}
+
+.grid-features .grid-item:nth-child(odd) {
+	padding-right: 25px;
+}
+
+.grid-features .grid-item:nth-child(2n) {
+	padding-left: 25px;
+}
+
+.layout-card-feature {
+	align-items: center;
+}
+
+.card-feature svg {
+	font-size: 32px;
+	margin-right: 20px;
+}
+
+.card-feature p {
+	margin-top: 0;
+}

@@ -1,0 +1,227 @@
+.pre_footer {
+	position: relative;
+    overflow: hidden;
+}
+
+.pre_footer-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    background-color: #ccc;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.pre_footer-foreground {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-height: 200px;
+
+}
+.headings-pre_footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.headings-pre_footer > h3 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.headings-pre_footer > p {
+	padding-top: 0;
+	margin-top: 0;
+}
+.layout-pre_footer {
+  display: flex;
+  align-items: center;
+}
+.layout-pre_footer > .layout-item:first-child {
+	padding-right: 30px;
+	width: 60%;
+}
+.layout-pre_footer > .layout-item:last-child {
+	display: flex;
+	justify-content: flex-end;
+	width: 40%;
+}
+.section-button {
+	padding-top: 30px;
+}
+.layout-menu {
+	margin-top: 40px;
+	padding-top: 40px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: flex-start;
+}
+.layout-menu > .layout-item {
+	width: calc(100% / 4);
+}
+.card-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.card-menu > a:first-child {
+	display: block;
+	margin-bottom: 20px;
+}
+.card-menu > a {
+	margin: 0 40px 15px 0;
+}
+.link-menu {
+	text-transform: none;
+	font-size: 13px;
+	font-family: var(--global-font-family);
+}
+.description-menu {
+	padding-bottom: 15px;
+	font-size: 13px;
+	font-family: var(--global-font-family);
+	margin: 0;
+}
+.inverse-link-menu {
+	color: #0f5f5c;
+}
+.title-link-menu {
+	font-weight: 600;
+	color: #0f5f5c;
+	padding-bottom: 20px;
+	font-size: 13px;
+}
+.field {
+	position: relative;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 20px;
+}
+.send-button {
+	width: 30px;
+	position: absolute;
+	height: 100%;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border: none;
+	cursor: pointer;
+
+}
+input[type="email"].input-send-button {
+	border-radius: 3px;
+	background: #eef1ec;
+    border: 0;
+    padding: 12px 40px 12px 15px;
+    font-size: 13px;
+    box-shadow: 0 0 0 0;
+}
+input[type="email"].input-send-button::placeholder {
+	color: #83a7a5;
+}
+
+.send-button .fa {
+	color: #6fb048;
+}
+.fa-paper-plane:hover {
+	opacity: 0.8;
+}
+
+@media screen  and (max-width: 750px) {
+	.layout-pre_footer {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: column;
+	}
+	.layout-pre_footer > .layout-item:first-child {
+		padding-right: 0;
+		width: 100%;
+	}
+	.layout-pre_footer > .layout-item:last-child {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	.layout-menu {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+		padding: 10px;
+
+	}
+	.layout-menu > .layout-item {
+		width: 33.3333%;
+		display: flex;
+		align-items: center;
+
+	}
+	.layout-menu > .layout-item:last-child {
+		width: 100%;
+	}
+	.layout-menu > .layout-item:nth-child(2) {
+		padding-left: 30px;
+	}
+	
+	.title-link-menu {
+		padding-right: 10px;
+	}
+	.description-menu {
+		padding-right: 10px;
+	}
+	.menu-mobile {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.field {
+		width: 100%;
+	}
+}
+@media screen  and (max-width: 479px) {
+	.layout-pre_footer {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: column;
+	}
+	.layout-pre_footer > .layout-item:first-child {
+		padding-right: 0;
+		width: 100%;
+	}
+	.layout-pre_footer > .layout-item:last-child {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.layout-menu > .layout-item {
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+	.layout-menu > .layout-item:last-child {
+		width: 50%;
+		padding-left: 30px;
+	}
+
+}
+@media screen  and (max-width: 320px) {
+	.layout-pre_footer {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: column;
+	}
+	.layout-pre_footer > .layout-item:first-child {
+		padding-right: 0;
+		width: 100%;
+	}
+	.layout-pre_footer > .layout-item:last-child {
+		display: flex;
+		width: 100%;
+	}
+	.layout-menu > .layout-item:last-child {
+		width: 100%;
+		margin-left: -30px;
+	}
+}

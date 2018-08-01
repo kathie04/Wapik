@@ -1,0 +1,33 @@
+.header, .section-plan, .perfect {
+    background: #eef1ec;
+}
+
+.section-plan {
+    padding-bottom: 65px;
+}
+
+.section-plan-home {
+    background: #fff;
+}
+
+.section-included {
+    padding-bottom: 97px;
+    padding-top: 78px;
+}
+
+.section-details {
+    background-image: url("../../images/bg-details.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-team {
+	background-color: #eef1ec;
+}
+
+.section-team, .section-about, .section-features, .section-review {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}

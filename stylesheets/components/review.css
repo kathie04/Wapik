@@ -1,0 +1,36 @@
+
+.layout-review .layout-item {
+	width: 50%;
+	text-align: left;
+	flex-direction: column;
+}
+
+.layout-review .layout-item:first-child {
+	margin-right: 16%;
+}
+
+.review-image {
+	height: 400px;
+	width: 400px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.review-image img{
+	transform: translateX(-17%);
+	min-height: 100%;
+	min-width: 100%;
+	height: auto;
+	width: auto;
+	max-width: none;
+}
+
+.review-author {
+	color: #6fb048;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.review-author ~ p {
+	margin-top: 0;
+}

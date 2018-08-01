@@ -1,0 +1,21 @@
+.grid-team .grid-item {
+	margin-right: 20px;
+	margin-left: 20px;
+	width: calc(100%/3 - 40px);
+	min-height: 240px;
+
+}
+
+.card-team {
+	text-align: left;
+}
+
+.card-team h6 {
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+.card-team p {
+	margin-top: 0;
+}
+

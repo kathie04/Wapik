@@ -1,0 +1,58 @@
+
+.hero {
+	height: 515px;
+	margin-top: 0;
+}
+
+.layout-hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.hero .container {
+	height: 100%;
+}
+
+.container-hero {
+	max-width: 850px;
+	text-align: center;
+}
+
+.container-hero h1 {
+	font-size: 50px;
+}
+
+/*Main page*/
+
+.header-hero-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.header-hero-overlay {
+	background-color: #296365;
+	opacity: 0.9;
+}
+
+.left {
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.main-hero {
+	max-width: 513px;
+}
+
+.main-hero p {
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.main-hero h1 {
+	margin-bottom: 5px;
+}

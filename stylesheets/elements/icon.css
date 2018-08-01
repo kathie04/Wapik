@@ -1,0 +1,58 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+svg[class^="icon-"],
+svg[class*=" icon-"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-phone {
+  fill: #a3bdba !important;
+}
+
+.icon-lifebuoy{
+  width: 40px !important;
+  height: 40px !important;
+  fill: #6fb048 !important;
+}
+
+.card-about svg {
+    font-size: 56px;
+}
+
+.card-about svg, .card-feature svg {
+    color: #6fb048;
+}
+
+svg[class^="icon-menu"],
+svg[class*=" icon-menu"]
+{
+    display: none;
+    color: #83a7a5;
+    font-size: 30px;
+}
+
+.icon-menu:hover {
+  color: var(--global-link-hover-color);
+}
+
+
